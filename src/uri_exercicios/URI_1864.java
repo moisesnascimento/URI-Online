@@ -1,6 +1,6 @@
 package uri_exercicios;
 
-public class URI1864 {
+public class URI_1864 {
 
 	public static void main(String[] args) {
 
