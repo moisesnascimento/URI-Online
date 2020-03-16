@@ -8,14 +8,15 @@ public class Parenteses {
         
 		java.util.Scanner scan = new java.util.Scanner(System.in);
 		Stack<Character> pilha = new Stack<>();
+		int N = scan.nextInt();
 		
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < N; i++) {
 		char character = scan.next().charAt(0);
 			if(character == '(') {
 			pilha.push('(');
 			}else if(character == ')') {
 				if(pilha.isEmpty()) {
-					System.out.println("Mal formada");
+					//System.out.println("Vazio");
 				}else {
 					pilha.pop();
 				}
