@@ -9,9 +9,10 @@ public class URI_2729 {
 
 		java.util.Scanner scan = new java.util.Scanner(System.in);
 		int N = scan.nextInt();
+		scan.nextLine();
 		while (N > 0) {
 			ArrayList<String> listaCompra = new ArrayList<>();
-			String compra = scan.next();
+			String compra = scan.nextLine();
 			String[] itens = compra.split(" ");
 
 			for (int i = 0; i < itens.length; i++) {
