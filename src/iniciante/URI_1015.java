@@ -14,7 +14,7 @@ public class URI_1015 {
 		
 		
 		double expressao1 = Math.pow(X2 - X1, 2) + Math.pow(Y2 - Y1, 2);; 
-		System.out.printf(".4f%s", Math.sqrt(expressao1), "\n");
+		System.out.printf("%.4f%s", Math.sqrt(expressao1), "\n");
 		
 		scan.close(); 
 	}
